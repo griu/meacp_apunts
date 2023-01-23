@@ -21,6 +21,7 @@
 .Rproj.user/
 
 # produced vignettes
+html/*.html
 vignettes/*.html
 vignettes/*.pdf
 
@@ -32,8 +33,11 @@ vignettes/*.pdf
 /cache/
 
 # Temporary files created by R markdown
+*.md
 *.utf8.md
 *.knit.md
 
 # R Environment Variables
 .Renviron
+
+
